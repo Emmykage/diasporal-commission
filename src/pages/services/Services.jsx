@@ -1,14 +1,13 @@
 import React from 'react'
 import Nav from '../../components/Nav'
 import Banner from '../../components/heroBanner/Banner'
-
-const About = () => {
+const Services = () => {
   return (
     <div className=''>
         <Nav/>
-        <Banner header={"about"}/>
+        <Banner header={"service"}/>
     </div>
   )
 }
 
-export default About
+export default Services
