@@ -27,8 +27,8 @@ const Home = () => {
 
 
         </section>
-        <section className='who-we-are py-24'>
-            <div className='grid gap-10 rounded shadow items-center bg-white grid-cols-2 max-w-7xl m-auto'>
+        <section className='who-we-are py-24 px-3'>
+            <div className='grid gap-10 rounded shadow items-center bg-white md:grid-cols-2 max-w-7xl m-auto'>
                 <div className='wwa-image p-4'>
                     <img src={WWAImage} alt="" />
 
