@@ -6,6 +6,7 @@ import briefcase from '../../assets/images/suitcase.svg'
 import compliance from '../../assets/images/presentation.svg'
 import chat from '../../assets/images/chat.svg'
 import CTA from '../../components/CTA/CAT'
+import Offers from '../../components/offers/Offers'
 const Services = () => {
   return (
     <div className=''>
@@ -13,9 +14,9 @@ const Services = () => {
         <Banner header={"service"}/>
 
 
-        <section>
+        <section className='py-16'>
 
-            <h3 className='text-center text-3xl font-semibold'>Our Services</h3>
+            <h3 className='text-center text-3xl font-semibold mb-6'>Our Services</h3>
             <p className='text-center max-w-5xl m-auto'>Explore Our Accounting Services for UK Businesses
                 <br/>
             Our range of services is designed to support businesses at every stage, from startups to established corporations. Whether you need basic bookkeeping or advanced tax planning, AB Accounting Services is here for you</p>
@@ -56,7 +57,10 @@ const Services = () => {
         
     </div>
         </section>
-        <CTA title={"Ready to Take Control of Your Business Finances?"}/>
+        <Offers/>
+
+        
+        <CTA text={"start optimizing your business finances today."} buttonText={"Get a Free Consultation"} title={"Ready to Take Control of Your Business Finances?"}/>
 
 
     </div>
