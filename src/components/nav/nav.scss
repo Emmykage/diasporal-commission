@@ -1,0 +1,32 @@
+nav{
+    position: relative;
+    @media (max-width: 768px) {
+        background-color: white;
+        // color: black;
+        
+    }
+
+    ul{
+        display: flex;
+        transition: left 0.3s ease-in ;
+ 
+        @media (max-width: 768px) {
+            padding-top: 50px;
+            position: absolute;
+            left: 0;
+            left: -100%;
+            top: 0;
+            width: 100%;
+            display: block;
+            background-color: rgb(31, 28, 28);
+            height: 100vh;
+      
+            &.show{
+            left: 0;
+
+
+            }
+            }
+        
+    }
+}

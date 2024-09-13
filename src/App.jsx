@@ -7,6 +7,7 @@ import Footer from './components/footer/Footer'
 import About from './pages/about'
 import Services from './pages/services/Services'
 import Contact from './pages/contact'
+import Blog from './pages/blog'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
           <Route path='/about-us' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
+          <Route path="/Blog" element={<Blog/>}/>
 
         </Routes>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../../components/Nav'
+import Nav from '../../components/nav/Nav'
 import './home.scss'
 import Services from './services/Services'
 import Slider from '../../components/heroBanner/Slider'

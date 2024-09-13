@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../../components/Nav'
+import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import teamPhoto from "../../assets/images/about/team_building_san_antonio_0.jpg"
 import './about.scss'
@@ -28,12 +28,12 @@ const About = () => {
           </div>
         </section>
 
-        <section className='uniquness py-20'>
+        <section className='uniquness py-20 px-5'>
 
-          <div className='grid grid-cols-2 m-auto max-w-7xl'>
+          <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
             <div className='max-w-7xl text-white leading-7'>
-              <h3 className='text-3xl my-2 text-alt'>WE <span>ARE DIFFERENT</span></h3>
+              <h3 className='text-3xl my-2 text-alt'>WE <span className='font-semibold'>ARE DIFFERENT</span></h3>
               <ul className='list-inside list-dis px-5'>
                 <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
                 <p><span className='font-semibold text-nowrap'>Tailored Solutions:</span>  Every business is unique, so we offer customized accounting strategies that align with your specific needs</p> </li>

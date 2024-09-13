@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../../components/Nav'
+import Nav from '../../components/nav/Nav'
 import Banner from '../../components/heroBanner/Banner'
 import idea from '../../assets/images/idea.svg'
 import briefcase from '../../assets/images/suitcase.svg'
