@@ -10,11 +10,18 @@ const Banner = ({header}) => {
                 return "Our Services"                
             case "contact":
                 return "Contact Us"
-
             case "about": 
-                return "About Us"        
+                return "About Us"    
+            case "appointment": 
+                return "Book APpointment" 
+            case "bookkeeping":
+                return "Bookeeping & Payroll"
+            case "business-consultancy":
+                return "Business Consultancy"
+            case "financial-report":
+                return "Financial Reporting"
             default:
-                return ""
+                return "Service"
         }
     }
   return (
