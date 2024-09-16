@@ -18,12 +18,12 @@ const Nav = () => {
             <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/services'} className={({isActive}) => (isActive && "text-alt")}> Service </NavLink>
             
               <ul className=''>
-                <div>
+                <div className='bg-black'>
 
-                <li> <NavLink to={"#"}>BookKeeping & Payroll </NavLink></li>
-                <li> <NavLink to={"#"}>Business Consultancy </NavLink></li>
-                <li> <NavLink to={"#"}>Financial Reporting </NavLink></li>
-                <li> <NavLink to={"#"}>Tax Planning </NavLink></li>
+                <li> <NavLink to={"/bookkeeping-payroll"}>BookKeeping & Payroll </NavLink></li>
+                <li> <NavLink to={"/business-consultancy"}>Business Consultancy </NavLink></li>
+                <li> <NavLink to={"/financial-reporting"}>Financial Reporting </NavLink></li>
+                <li> <NavLink to={"/tax-planning"}>Tax Planning </NavLink></li>
                 </div>
 
               </ul>

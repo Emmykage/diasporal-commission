@@ -43,14 +43,14 @@ nav{
                     // transition: all 0.3s ease-in-out;
                     // pointer-events: none;
                     div{
-                        background-color: purple;
+                        // background-color: purple;
                         border-radius: 12px;
-                        background-color: green;
+                        // background-color: green;
                         position: relative;
                         margin-left: -28px;
                         outline: blue;
                         overflow: hidden;
-                        border: 1px solid red;
+                        border: 1px solid rgb(114, 114, 114);
 
                         padding: 12px 0;
                         &::after {
@@ -58,6 +58,8 @@ nav{
                             background-color: red;
                             width: 20px;
                             height: 20px;
+                            top: -10px;
+                            left: -10px;
 
                         }
                     }

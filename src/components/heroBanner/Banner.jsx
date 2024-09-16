@@ -20,6 +20,8 @@ const Banner = ({header}) => {
                 return "Business Consultancy"
             case "financial-report":
                 return "Financial Reporting"
+            case "tax-planning":
+            return "Tax Planning"
             default:
                 return "Service"
         }
