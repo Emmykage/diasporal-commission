@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const CTA = ({title, text,  classPro, buttonText}) => {
   return (
 
-    <section className=' bg-gray-100 py-20'>
+    <section className=' bg-gray-100 py-20 px-5'>
         <div className={`py-16 max-w-6xl m-auto ${classPro}`}>
           {title &&  <h4 className='text-xl font-medium text-center'>{title}</h4> }
          

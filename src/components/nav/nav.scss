@@ -76,6 +76,11 @@ nav{
                         display: block;
                         // opacity: 1;
                         // margin-top: 0;
+                        a{
+                            &:hover{
+                                color: #f6bb19;
+                            }
+                        }
 
                     }
                 }
