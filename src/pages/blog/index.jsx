@@ -3,6 +3,7 @@ import Nav from '../../components/nav/Nav'
 import { blogs } from '../../assets/blogData/data'
 import { NavLink, useNavigate } from 'react-router-dom'
 import Banner from '../../components/heroBanner/Banner'
+import './blog.scss'
 
 const Blog = () => {
   const navigate = useNavigate()
@@ -33,8 +34,8 @@ const Blog = () => {
               <div className='grid gap-5 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 px-5'>
                 {blogs.map(blog => (
                   <>
-                   <div className='rounded overflow-hidden'>              
-                <div className='w-full h-72 bg-gray-100'>
+                   <div  className=' rounded overflow-hidden'>              
+                <div onClick={()=> navigate(`/blog-post/${blog.id}`)} className='w-full h-72 bg-red-500 blg-img overflow-hidden'>
                   <img src={blog.blogImage} alt="" className='w-full h-full' />
                 </div>
 
