@@ -8,10 +8,10 @@ import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
 const FinancialReporting = () => {
   return (
     <div>
-                <Nav/>
+    <Nav/>
         <Banner header={"financial-report"}/>
                 
-        <section className='py-20 px-5 bg-red-50'>
+        <section className='py-20 px-5'>
             <div className='max-w-7xl m-auto'>
                 <div>
                     

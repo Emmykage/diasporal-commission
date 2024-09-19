@@ -35,9 +35,9 @@ const Blog = () => {
                 {blogs.map(blog => (
                   <>
                    <div  className=' rounded overflow-hidden'>              
-                <div onClick={()=> navigate(`/blog-post/${blog.id}`)} className='w-full h-72 bg-red-500 blg-img overflow-hidden'>
-                  <img src={blog.blogImage} alt="" className='w-full h-full' />
-                </div>
+                      <div onClick={()=> navigate(`/blog-post/${blog.id}`)} className='w-full h-72 bg-red-500 blg-img overflow-hidden'>
+                        <img src={blog.blogImage} alt="" className='w-full h-full' />
+                      </div>
 
                 <div className='border-l-4 my-7 px-4 py-2 border-b-4 border-alt'>
                   <NavLink to={`/blog-post/${blog.id}`} className='text-base font-semibold text-gray-600 hover:text-alt'>
