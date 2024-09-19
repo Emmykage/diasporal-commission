@@ -3,6 +3,7 @@ import Banner from '../../../components/heroBanner/Banner'
 import TitleBox from '../../../components/titleBox/TitleBox'
 import Nav from '../../../components/nav/Nav'
 import CTA from '../../../components/CTA/CAT'
+import taxComplianceImg from '../../../assets/images/services/tax-compliance.webp'
 import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
 import taxPLanningImage from '../../../assets/images/services/what-is-tax-planning_banner.jpg'
 const TaxPlanning = () => {
@@ -74,20 +75,20 @@ const TaxPlanning = () => {
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Corporate Tax Planning</h4>
-                            <p>We’ll help you minimize your corporate tax liabilities through careful planning and utilization of government schemes and reliefs, such as Annual Investment Allowance (AIA) and R&D tax credits.
+                            <p  className='text-center'>We’ll help you minimize your corporate tax liabilities through careful planning and utilization of government schemes and reliefs, such as Annual Investment Allowance (AIA) and R&D tax credits.
                             </p>
                         </div>
                         <div> 
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Personal Tax Planning for Business Owners </h4>
-                            < p className='text-justify'>If you’re a business owner, managing your personal tax alongside your business tax can be tricky. We offer tax-efficient strategies to help you maximize your income and reduce personal tax burdens.</p>
+                            < p className='text-center'>If you’re a business owner, managing your personal tax alongside your business tax can be tricky. We offer tax-efficient strategies to help you maximize your income and reduce personal tax burdens.</p>
                         </div>
                         <div>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>VAT Planning and Compliance</h4>
-                            <p>	We assist with VAT registration, preparation, and submission to ensure you’re compliant with UK VAT laws. We also offer advice on VAT schemes that might reduce your liabilities.</p>
+                            <p className='text-center'>	We assist with VAT registration, preparation, and submission to ensure you’re compliant with UK VAT laws. We also offer advice on VAT schemes that might reduce your liabilities.</p>
                         </div>
                         <div>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
@@ -102,7 +103,7 @@ const TaxPlanning = () => {
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Inheritance Tax (IHT) Planning</h4>
-                            <p className='text-justify'>
+                            <p className='text-center'>
                             Ensure your wealth is passed on efficiently. We offer inheritance tax planning solutions for business owners who want to secure their legacy </p>
 
                         </div>
@@ -110,7 +111,7 @@ const TaxPlanning = () => {
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
                             <h4 className='text-lg font-medium text-center'>Tax Relief and Allowances</h4>
-                            <p className='text-justify'>
+                            <p className='text-center'>
                             	Take advantage of various tax relief schemes available to businesses, such as entrepreneurs’ relief, and patent box relief, which can significantly reduce your tax liabilities.
 
 
@@ -125,14 +126,15 @@ const TaxPlanning = () => {
   
             </div>
 
-            <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
-
-    <div></div>
-            <div>
-                <h4>Tax Compliance Services</h4>
+            <div className='grid gap-6 my-20 md:grid-cols-2 m-auto max-w-7xl items-center'>
+                <div className='h-96 p-10 '>
+                    <img src={taxComplianceImg} alt="" className=' h-full rounded-xl overflow-hidden border w-full' />
+                </div>
+                <div>
+                <h4 className='text-3xl font-medium'>Tax Compliance Services</h4>
                 <p>In addition to tax planning, we provide comprehensive tax compliance services to ensure your business meets all of its HMRC obligations: </p>
                 <ul className='px-4'>
-                    <li>
+                    <li>  ⦁
                     Preparing and filing corporation tax returns
                     </li>
                     <li>
@@ -160,7 +162,7 @@ const TaxPlanning = () => {
 
                 <div className='max-w-7xl text-white leading-7'>
                     <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose AB Accounting Services for Tax Planning?                 </span></h3>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid sm:grid-cols-2'>
 
                     <ul className='list-inside list-dis px-5'>
                     <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
