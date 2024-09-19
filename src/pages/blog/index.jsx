@@ -34,7 +34,7 @@ const Blog = () => {
                 {blogs.map(blog => (
                   <>
                    <div className='rounded overflow-hidden'>              
-                <div className='w-full h-72 bg-red-100'>
+                <div className='w-full h-72 bg-gray-100'>
                   <img src={blog.blogImage} alt="" className='w-full h-full' />
                 </div>
 
