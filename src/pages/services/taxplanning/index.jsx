@@ -4,7 +4,7 @@ import TitleBox from '../../../components/titleBox/TitleBox'
 import Nav from '../../../components/nav/Nav'
 import CTA from '../../../components/CTA/CAT'
 import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
-
+import taxPLanningImage from '../../../assets/images/services/what-is-tax-planning_banner.jpg'
 const TaxPlanning = () => {
   return (
     <div>
@@ -24,8 +24,8 @@ const TaxPlanning = () => {
                     </p>
                     <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4>
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
-                        <div className='h-96 p-10'>
-                            <img src={"bookkeeping"} alt="" className='h-full w-full' />
+                        <div className='h-96 p-10 '>
+                            <img src={taxPLanningImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
 
                         </div>
                         <div className='py-10'>
@@ -50,7 +50,10 @@ const TaxPlanning = () => {
 
                             </li>
                         </ul>
+                        <p>
+                            By planning your taxes effectively, you can retain more of your hard-earned profits and reinvest them into the growth of your business.
 
+                            </p>
                     
                         </div>
 
@@ -59,10 +62,7 @@ const TaxPlanning = () => {
                     </div>
 
                     <div  className='mb-10 max-w-xl'>
-                            <p>
-                            By planning your taxes effectively, you can retain more of your hard-earned profits and reinvest them into the growth of your business.
-
-                            </p>
+            
                         </div>
 
                     <div>

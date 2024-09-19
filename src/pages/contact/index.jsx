@@ -5,6 +5,7 @@ import { FaHouse } from 'react-icons/fa6'
 import { FaPhoneAlt } from 'react-icons/fa'
 import { IoMailSharp } from 'react-icons/io5'
 import './contact.scss'
+import { NavLink } from 'react-router-dom'
 const Contact = () => {
   return (
     <div>
@@ -19,21 +20,19 @@ const Contact = () => {
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><FaHouse className='text-3xl' /></span>
               <h4 className='text-xl font-medium text-gray-600 uppercase'>office address</h4>
-              <p className='text-lg'>13/2 Elizabeth Street Melbourne
-              VIC 3000, USA</p>
+              <p className='text-lg'><address>18 Thricknells Close, Luton, LU3 3RP</address>
+              </p>
             </div>
             <div className='text-center shadow md:p-8'>
               <span className='block m-auto text-center w-max my-3'><FaPhoneAlt className='text-3xl' /></span>
               <h4 className='text-xl font-medium text-gray-600 uppercase'>contact number</h4>
-              <p className='text-lg'>1-4343-3435-5343
-              VIC 3000, USA</p>
+              <a href="tel:+07405141694">07405141694</a>
             </div>
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><IoMailSharp className='text-3xl'/></span>
               <h4 className='text-xl font-medium text-gray-600 uppercase'>
               email id</h4>
-              <p className='text-lg'>info@abfaccounting.com
-              VIC 3000, USA</p>
+              <p className='text-lg'><a href="mailto:support@abfaccounting.com"> support@abfaccounting.com</a></p>
             </div>
         
           </div>

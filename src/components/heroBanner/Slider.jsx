@@ -18,8 +18,8 @@ const Slider = () => {
 
       <div className='slide slide-2 w-full flex justify-center items-center'>
         <div className='bg-black/20 px-3 py-2 rounded text-center text-white'>
-            <p className='text-4xl text-white font-medium'>We Provide Real </p>
-            <h3 className='text-3xl md:text-7xl font-semibold'>WORLD SOLUTION</h3>
+            <p className='text-4xl text-white font-medium'>Accounting Made Simple </p>
+            <h3 className='text-3xl md:text-7xl font-semibold'>Growth Made Possible</h3>
         </div>
 
 
@@ -27,24 +27,24 @@ const Slider = () => {
 
       <div className='slide slide-3 w-full flex justify-center items-center'>
         <div className='bg-black/20 px-3 py-2 rounded text-center text-white'>
-            <p className='text-4xl text-white font-medium'>We Provide Real </p>
-            <h3 className='text-3xl md:text-7xl font-semibold'>WORLD SOLUTION</h3>
+            <p className='text-4xl text-white font-medium'>Your Financial Success</p>
+            <h3 className='text-3xl md:text-7xl font-semibold'>Our Real-World Expertise!!</h3>
         </div>
 
 
       </div>
       <div className='slide slide-4 w-full flex justify-center items-center'>
         <div className='bg-black/20 px-3 py-2 rounded text-center text-white'>
-            <p className='text-4xl text-white font-medium'>We Provide Real </p>
-            <h3 className='text-3xl md:text-7xl font-semibold'>WORLD SOLUTION</h3>
+            <p className='text-4xl text-white font-medium'>Mastering Finances </p>
+            <h3 className='text-3xl md:text-7xl font-semibold'>Fueling Success</h3>
         </div>
 
 
       </div>
       <div className='slide slide-5 w-full flex justify-center items-center'>
         <div className='bg-black/20 px-3 py-2 rounded text-center text-white'>
-            <p className='text-4xl text-white font-medium'>We Provide Real </p>
-            <h3 className='text-7xl font-semibold'>WORLD SOLUTION</h3>
+            <p className='text-4xl text-white font-medium'>Simplifying Accounting </p>
+            <h3 className='text-7xl font-semibold'>Delivering Real Results</h3>
         </div>
 
 

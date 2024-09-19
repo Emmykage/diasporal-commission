@@ -22,14 +22,16 @@ const Banner = ({header}) => {
                 return "Financial Reporting"
             case "tax-planning":
             return "Tax Planning"
+            case "blog":
+                return "ABF Accounting Blog"
             default:
-                return "Service"
+                return title
         }
     }
   return (
     <div className={`${header} h-72 flex items-center justify-center  service-banner w-screen`}>
         <div className='border-[3px] border-gray-400 px-10 py-3'>
-            <h3 className='text-3xl text-white'>{bannerTitle(header)}</h3>
+            <h3 className='text-lg md:text-3xl text-white'>{bannerTitle(header)}</h3>
         </div>
     </div>
   )

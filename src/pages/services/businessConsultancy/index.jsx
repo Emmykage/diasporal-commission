@@ -3,7 +3,13 @@ import TitleBox from '../../../components/titleBox/TitleBox'
 import CTA from '../../../components/CTA/CAT'
 import Nav from '../../../components/nav/Nav'
 import Banner from '../../../components/heroBanner/Banner'
-
+import businessConsultingImage from '../../../assets/images/services/business-consulting.jpg'
+import planning from "../../../assets/images/services/chart-arrow-up-icon.png"
+import researchIcon from "../../../assets/images/services/market-research-icon.svg"
+import cashFlow from "../../../assets/images/services/money-transactions-icon.svg"
+import marketAnalysis from "../../../assets/images/services/project-analysis-icon.svg"
+import operations from "../../../assets/images/services/settings-line-icon.svg"
+import spomsorship from "../../../assets/images/services/sponsorship-icon.svg"
 const BusinessConsultancy = () => {
   return (
     <div>
@@ -19,10 +25,10 @@ const BusinessConsultancy = () => {
 
                 <div className='mt-6'>
                     <p> At AB Accounting Services, we understand that running a successful business involves more than just keeping track of your finances. Our business consultancy services are designed to help you make informed decisions, plan for growth, and navigate challenges. Whether you're a startup looking for direction or an established business aiming to scale, our expert consultants provide actionable insights and strategies tailored to your needs.</p>
-                    <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4>
+                    {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
-                            <img src={"bookkeeping"} alt="" className='h-full w-full' />
+                            <img src={businessConsultingImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
 
                         </div>
                         <div className='py-10'>
@@ -35,50 +41,68 @@ const BusinessConsultancy = () => {
                     </div>
 
                     <div>
-                    <h4 className='font-semibold'>Our Business Consultancy Services  </h4>
-                    <p>At AB Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p>
+                    <h4 className='font-semibold text-3xl text-center'>Our Business Consultancy Services  </h4>
+                    <p className='text-center max-w-xl m-auto'>At AB Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p>
                    
-                    <div className='grid gap-4 md:grid-cols-3'>
-                        <div className=''>
-                            <h4>Strategic Business Planning</h4>
-                                We help you create a clear and actionable business plan that aligns with your long-term goals. Whether you’re expanding, entering new markets, or launching new products, our team will guide you through the process with a focus on financial forecasting and risk management.
+                    <div className='servive-container grid gap-4 md:grid-cols-3 my-6'>
+                        <div className='shadow rounded p-8'>
+                            <img src={researchIcon} alt="planning" className='w-20 m-auto text-alt'  />
+                            <h4 className='text-center my-3 text-xl font-medium'>Strategic Business Planning</h4>
+                            <p  className='text-base text-gray-600 font-medium text-center'>
+                            We help you create a clear and actionable business plan that aligns with your long-term goals. Whether you’re expanding, entering new markets, or launching new products, our team will guide you through the process with a focus on financial forecasting and risk management.
+
+                            </p>
                         </div>
-                        <div> 
-                            <h4>Cash Flow Management</h4>
-                            <p>
+                        <div className='shadow rounded p-8'> 
+                        <img src={cashFlow} alt="planning" className='w-20 m-auto text-alt'  />
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Cash Flow Management</h4>
+                            <p className='text-base text-gray-600 font-medium text-center'>
                                 Cash flow is vital to your business's health. Our cash flow analysis and management strategies help you optimize liquidity, improve cash reserves, and ensure you have the funds needed to meet both short-term and long-term obligations.
                                 
                             </p>
                         </div>
-                        <div>
-                            <h4>Budgeting and Forecasting</h4>
-                            <p>
+                        <div className='shadow rounded p-8'>
+                            <img src={marketAnalysis} alt="" className='w-20 m-auto' />
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Budgeting and Forecasting</h4>
+                            <p className='text-base text-gray-600 font-medium text-center'>
                                 We assist with financial forecasting and budgeting, giving you a clear picture of your expected revenue, expenses, and profits. This allows you to allocate resources effectively and anticipate financial challenges before they arise.
                             </p>
                         </div>
-                        <div>
-                            <h4>Operational Efficiency</h4>
+                        <div className='shadow rounded p-8'>
+                        <img src={operations} alt="planning" className='w-20 m-auto text-alt'  />
+
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Operational Efficiency</h4>
                             <p>
                                  Are you looking for ways to streamline your operations? We can identify inefficiencies in your business processes and recommend cost-saving measures to increase profitability.
 
                             </p>
                         </div>
-                        <div>
-                            <h4>Profitability Analysis</h4>
+                        <div className='shadow rounded p-8'>               
+                            <img src={planning} alt="planning" className='w-20 m-auto text-alt'  />
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Profitability Analysis</h4>
                             <p>
                                 Through a detailed profitability analysis, we help you understand which areas of your business are most profitable and where improvements can be made. We look at revenue streams, expenses, and pricing strategies to boost your bottom line.
 
                             </p>
                         </div>
-                        <div>
-                            <h4>Growth and Expansion Strategy</h4>
+                        <div className='shadow rounded p-8'>
+                        <img src={spomsorship} alt="planning" className='w-20 m-auto text-alt'  />
+
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Growth and Expansion Strategy</h4>
                             <p>
                             If you're ready to grow your business, we’ll provide a strategic roadmap for expansion. From market research to financial planning, we guide you every step of the way to ensure sustainable and profitable growth.
                             Succession 
                             </p>
                         </div>
-                        <div>
-                            <h4>Succession and Exit Planning</h4>
+                        <div className='shadow rounded p-8'>    
+                            <img src={spomsorship} alt="planning" className='w-20 m-auto text-alt'  />
+
+                            <h4 className='text-center my-3 text-xl font-medium'>Succession and Exit Planning</h4>
                             <p>
                             Planning for the future of your business is crucial. Our succession planning services ensure a smooth transition of leadership, while exit planning helps you maximize the value of your business if you're considering selling or stepping down.
 
@@ -86,52 +110,12 @@ const BusinessConsultancy = () => {
                                            
 
                         </div>
-                        </div>
-                        </div>
-                    
-                        <p className='max-w-2xl my-4'>Whether you're a startup or an established business, we can help you maintain a clear and accurate financial picture. </p>
-                        
                     </div>
-  
+                </div>
+                    
             </div>
-
-            {/* <div  className='max-w-7xl m-auto'>
-                <h4 className='text-2xl font-semibold mt-2'>Payroll Services </h4>
-
-                <div className='grid md:grid-cols-2 gap-10'>
-                <div className='h-96 p-10'>
-                    <img src={"payroll"} alt="" className='h-full w-full'/>
-                </div>
-                <div className='py-10'>
-                <p>Managing payroll can be time-consuming and complex. Our payroll services ensure your employees are paid accurately and on time, while also ensuring compliance with UK tax laws, national insurance contributions, and pension requirements.</p>
-                <div>
-                    <h4>Our Payroll Services Include:</h4>
-                        <ul>
-                        <li>Employee salary and wage calculations              </li>
-                        <li>Processing employee deductions (taxes, National Insurance, pensions)
-                        </li>
-                        <li>PAYE and NIC management
-                        </li>
-                        <li>Generating payslips for employees
-                        </li>
-                        <li>Managing employee benefits and bonuses
-                        </li>
-                        <li>Automatic pension enrollment compliance
-                        </li>
-                        <li>Year-end payroll summaries and P60s
-                        </li>
-
-                    </ul>
-                </div>
-                </div>
-                </div>
-                <p  className='max-w-3xl'>
-                With our professional payroll services, you no longer have to worry about the ever-changing payroll regulations. We’ll handle all the details so you can focus on growing your business.
-
-
-                </p>
-                
-            </div> */}
+  
+            </div>           
 
         </section>
         <section className='uniquness py-20 px-5'>

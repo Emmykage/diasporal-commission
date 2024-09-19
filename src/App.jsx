@@ -13,6 +13,7 @@ import BookkeepingPayroll from './pages/services/bookkeeping'
 import BusinessConsultancy from './pages/services/businessConsultancy'
 import FinancialReporting from './pages/services/financialReporting'
 import TaxPlanning from './pages/services/taxplanning'
+import BlogPost from './pages/blog/blogPost/BlogPost'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -26,6 +27,8 @@ function App() {
           <Route path='/services' element={<Services/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path="/Blog" element={<Blog/>}/>
+          <Route path="/blog-post/:id" element={<BlogPost/>}/>
+          
           <Route path='/book-appointment' element={<BookApointment/>}/>
           <Route path='/bookkeeping-payroll' element={<BookkeepingPayroll/>}/>
           <Route path='/business-consultancy' element={<BusinessConsultancy/>}/>

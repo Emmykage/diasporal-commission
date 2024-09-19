@@ -27,7 +27,7 @@ const Home = () => {
 
 
         </section>
-        <section className='who-we-are py-24 px-3'>
+        <section className='who-we-are py-24 px-4'>
             <div className='grid gap-10 rounded shadow items-center bg-white md:grid-cols-2 max-w-7xl m-auto'>
                 <div className='wwa-image p-4'>
                     <img src={WWAImage} alt="" />
@@ -35,7 +35,7 @@ const Home = () => {
 
                 </div>
 
-                <div className='wwa-text '>
+                <div className='wwa-text p-3'>
                     <h3 className='font-semibold text-2xl uppercase mb-10'>Your Trusted Accountants in the UK</h3>
                     <p>
                     At AB Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. <br/> <br/>  With years of experience supporting industries ranging from retail to tech startups, we ensure your business stays compliant and financially sound.

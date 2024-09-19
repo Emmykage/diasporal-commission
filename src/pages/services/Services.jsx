@@ -7,6 +7,8 @@ import compliance from '../../assets/images/presentation.svg'
 import chat from '../../assets/images/chat.svg'
 import CTA from '../../components/CTA/CAT'
 import Offers from '../../components/offers/Offers'
+import { NavLink } from 'react-router-dom'
+import './service.scss'
 const Services = () => {
   return (
     <div className=''>
@@ -14,7 +16,7 @@ const Services = () => {
         <Banner header={"service"}/>
 
 
-        <section className='py-16'>
+        <section className='py-16 px-4'>
 
             <h3 className='text-center text-3xl font-semibold mb-6'>Our Services</h3>
             <p className='text-center max-w-5xl m-auto'>Explore Our Accounting Services for UK Businesses
@@ -24,32 +26,42 @@ const Services = () => {
         
         <div className='shadow text-center rounded-lg p-10'>
             <img src={idea} alt="" className='w-10 m-auto' />
+            <NavLink to={"/business-consultancy"}>
             <p className='my-6 font-medium title'>Business Consultancy</p>
+            </NavLink>
+
            <p className='my-5'>Ready to take your business to the next level? Our business consultancy services offer expert financial advice on cash flow management, budgeting, and long-term financial planning for sustainable growth.</p>
 
         </div>
 
         <div className='shadow text-center rounded-lg p-10'>
             <img src={briefcase} alt="" className='w-10 m-auto' />
+            <NavLink to="/tax-planning">
             <p className='my-6 font-medium title'>Strategic Tax Planning</p>
-            <p className='my-5'>Let our experts help you navigate UK tax regulations while minimizing your tax liabilities. We handle everything from corporate tax returns to VAT submissions, ensuring you stay compliant and maximize savings.
-            </p>
+            </NavLink>
+            <p className='my-5'>Let our experts help you navigate UK tax regulations while minimizing your tax liabilities. We handle everything from corporate tax returns to VAT submissions, ensuring you stay compliant and maximize savings.</p>
 
         </div>
 
         <div className='shadow text-center rounded-lg p-10'>
             <img src={compliance} alt="" className='w-10 m-auto' />
+
+            <NavLink to="/bookkeeping-payroll">
+            
             <p className='my-6 font-medium title'>Bookkeeping & Payroll Services
-            </p>
+            </p></NavLink>
             <p className='my-5'>Keep your financial records organized and up to date with our professional bookkeeping services. We also offer payroll management to ensure accurate and timely employee payments, letting you focus on running your business.
             </p>
 
         </div>
         <div className='shadow text-center rounded-lg p-10'>
             <img src={chat} alt="" className='w-10 m-auto' />
-            <p className='my-6 font-medium title'>Financial Consultancy for Business Growth
 
-            </p>
+            <NavLink to="/financial-reporting">
+            <p className='my-6 font-medium title'>Financial Consultancy for Business Growth </p>
+
+            </NavLink>
+
              <p className='my-5'>Gain clarity into your business’s financial performance with our comprehensive financial reporting services. From income statements to cash flow analysis, we provide actionable insights that help you make informed decisions.
              </p>
 

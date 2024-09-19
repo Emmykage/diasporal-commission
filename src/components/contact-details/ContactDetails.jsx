@@ -9,8 +9,7 @@ const ContactDetails = () => {
             <div className='text-center shadow p-8'>
               <span className='block m-auto text-center w-max my-3'><FaHouse className='text-3xl' /></span>
               <h4 className='text-xl font-medium text-gray-600 uppercase'>office address</h4>
-              <p className='text-lg'>13/2 Elizabeth Street Melbourne
-              VIC 3000, USA</p>
+              <p className='text-lg'>18 Thricknells Close, Luton, LU3 3RP</p>
             </div>
             <div className='text-center shadow md:p-8'>
               <span className='block m-auto text-center w-max my-3'><FaPhoneAlt className='text-3xl' /></span>

@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        blogLayout: "300px auto"
+      },
       colors: {
         alt: "#f6bb19"
       },
