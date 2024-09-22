@@ -3,14 +3,16 @@ import { FaPhoneAlt } from 'react-icons/fa'
 import { FaHouse } from 'react-icons/fa6'
 import { IoMailSharp } from 'react-icons/io5'
 import { NavLink } from 'react-router-dom'
+import logo from '../../assets/images/logo/logo2.png'
 
 const Footer = () => {
   return (
-    <footer className='bg-gray-900 py-20 px-4'>
+    <section>
+        <footer className='bg-gray-900 py-20 px-4'>
         <div className='m-auto max-w-7xl grid gap-10 md:grid-cols-3'>
             <div className='md:px-12'>
-                <h3 className='text-white text-3xl mb-4'>ABAccount</h3>
-                <p className=' text-sm text-gray-300'>AB Accounting Services provides comprehensive accounting solutions for UK businesses of all sizes. <br/> <br/> Our team of professional accountants is dedicated to helping your business grow through tailored financial strategies and seamless compliance with UK regulations.</p>
+                <h3 className='text-white text-3xl mb-o'><img src={logo} alt='ndpt logo' className='w-32'/></h3>
+                <p className=' text-sm text-gray-300'>we are committed to delivering exceptional service by empowering Nigerians in the diaspora to engage meaningfully with their home country</p>
 
             </div>
             <div className='text-white text- md:px-10'>
@@ -40,10 +42,24 @@ const Footer = () => {
                 
                 </div>
       
-        </div>
-
+        </div>     
         
     </footer>
+        <div className="text-center mt-20">
+              <p className="text-sm text-gray-400">© 2024 NPDT – 18 Thricknells Close, Luton, LU3 3RP. Telephone: 07405141694
+              </p>
+
+              <ul className="text-sm my-4 text-red-500 m-auto md:justify-center flex flex-col md:flex-row max-w-4xl flex-wrap gap-3 md:gap-0">
+
+                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Privacy Policy </nuxt-link> </li>
+                <li className="border-r border-gray-400 px-4"> <nuxt-link to="/privacy-policy" class="hover:text-theme" >Cookie Policy</nuxt-link></li>
+                <li className="border-r border-gray-400 px-4">Modern Slavery Statement</li>
+                <li className=" border-gray-400 px-4"> Site Map</li>
+              </ul>
+          </div>
+
+    </section>
+  
   )
 }
 

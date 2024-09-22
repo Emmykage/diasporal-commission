@@ -14,17 +14,18 @@ const BusinessConsultancy = () => {
   return (
     <div>
              <Nav/>
-        <Banner header={"business-consultancy"}/>
+        <Banner header={"mining-natural-resources"}/>
                 
         <section className='py-20 px-5'>
             <div className='max-w-7xl m-auto'>
                 <div>
                     
-                    <TitleBox title={"Business Consultancy Services"}/>
+                    <TitleBox title={"Mining & Natural Resources"}/>
                 </div>
 
                 <div className='mt-6'>
-                    <p> At AB Accounting Services, we understand that running a successful business involves more than just keeping track of your finances. Our business consultancy services are designed to help you make informed decisions, plan for growth, and navigate challenges. Whether you're a startup looking for direction or an established business aiming to scale, our expert consultants provide actionable insights and strategies tailored to your needs.</p>
+                    <p>
+                    At NDPT, we understand that harnessing Nigeria's vast natural resources requires more than just extraction. Our expertise in mining and natural resources is designed to help you invest wisely, ensure sustainable practices, and maximize returns. Whether you're entering the mining sector or expanding your operations, our team provides strategic insights and tailored solutions to navigate the complexities of resource extraction and environmental responsibility, driving both profitability and positive impact.</p>
                     {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
@@ -32,8 +33,13 @@ const BusinessConsultancy = () => {
 
                         </div>
                         <div className='py-10'>
-                            <h3 className='text-3xl font-medium'>What Is Business Consultancy?</h3>
-                        <p>Business consultancy goes beyond basic accounting support. It involves working closely with business owners and management teams to address specific challenges, identify opportunities, and create sustainable growth strategies. Our consultants bring a wealth of experience in finance, operations, and strategic planning, helping you make data-driven decisions that lead to success.</p>
+                            <h3 className='text-3xl font-medium'>Natural Resources</h3>
+                        <p>
+                            Explore investment opportunities in Nigeria's vast mineral wealth, including 
+                            gold, coal, limestone, and other natural resources. Contribute to resource 
+                            extraction and refining projects that ensure sustainable mining practices while 
+                            generating profits.   
+                        </p>
 
                        
                     
@@ -180,11 +186,12 @@ const BusinessConsultancy = () => {
                 <div className='max-w-7xl m-auto'>
 
                 <h3 className='text-2xl text-center my-6 font-semibold '>
-                Ready to Take Your Business to the Next Level?
+                Ready to Make a Lasting Impact?
                 </h3>
                 <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-                At AB Accounting Services, we’re committed to helping you achieve sustainable business growth through expert consultancy services. Whether you’re looking to improve your operations, plan for expansion, or navigate complex business challenges, our team is here to support you every step of the way.
+                    
 
+                At NDPT, we're dedicated to empowering you to contribute to Nigeria's development through strategic investments and partnerships. Whether you're looking to invest in key sectors, support community projects, or share your expertise, our team is here to guide and support you every step of the way. Together, we can drive sustainable growth and positive change.
                 </p>
                 </div>
 

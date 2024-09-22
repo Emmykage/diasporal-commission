@@ -14,9 +14,11 @@ const About = () => {
             <div>
               <h3 className='text-3xl font-semibold'>WHO  <span className='font-bold'>WE ARE</span> </h3>
               <p>
-              At AB Accounting Services, we pride ourselves on delivering accounting services for businesses in the UK that are tailored to each client's unique needs. 
-              <br/> <br/>
-              With years of experience supporting industries ranging from retail to tech startups, we ensure your business stays compliant and financially sound.
+              At Nigeria Diaspora Project Trust (NDPT), we believe in the power of connection—between 
+Nigerians living abroad and the immense investment opportunities at home. Our mission is to 
+provide a secure and reliable platform for Nigerians in the Diaspora to invest in high
+potential sectors such as Agriculture, Real Estate, Industry, and Mining, fostering economic 
+growth and long-term wealth creation.              <br/> <br/>
 
 
               </p>
@@ -33,14 +35,26 @@ const About = () => {
           <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
             <div className='max-w-7xl text-white leading-7'>
-              <h3 className='text-3xl my-2 text-alt'>WE <span className='font-semibold'>ARE DIFFERENT</span></h3>
+              <h3 className='text-3xl my-2 text-alt'>WE <span className='font-semibold'>Why Choose NDPT? 
+              </span></h3>
               <ul className='list-inside list-dis px-5'>
                 <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
-                <p><span className='font-semibold text-nowrap'>Tailored Solutions:</span>  Every business is unique, so we offer customized accounting strategies that align with your specific needs</p> </li>
+                <p><span className='font-semibold text-nowrap'>Secure Investments: </span> Your investments are safe with us. We partner with renowned 
+institutions like Macedonia Group, Hilltop & Strongbrooke, Sunnykem Properties, 6th 
+& 9th Real Estate, and the Federal Mortgage Bank to ensure the highest standards of 
+integrity and accountability.</p> </li>
                 <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
-                <p><span className='font-semibold text-nowrap'>Expertise You Can Trust:</span>  Our accountants are certified professionals with extensive experience in UK tax regulations and financial reporting.</p> </li>
+                <p><span className='font-semibold text-nowrap'>Expert Management:</span> All projects are developed and managed by industry 
+                professionals, ensuring profitability and long-term success.</p> </li>
                 <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
-                  <p><span className='font-semibold text-nowrap'>Business Growth Focus: </span> More than just compliance, we help businesses scale through strategic financial planning and consultancy.
+                  <p><span className='font-semibold text-nowrap'>Diverse Opportunities: </span>  From Agriculture and Real Estate to Industry and Mining, 
+                  NDPT offers diversified investment portfolios tailored to match your financial goals. 
+                  </p> 
+                </li>
+                <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
+                  <p><span className='font-semibold text-nowrap'>Supporting National Development: </span>  By investing through NDPT, you are not just 
+growing your wealth, but also contributing to Nigeria’s food security, housing 
+development, and industrial expansion.
                   </p> 
                 </li>
                 

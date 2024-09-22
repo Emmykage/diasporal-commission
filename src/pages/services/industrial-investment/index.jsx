@@ -9,17 +9,17 @@ const FinancialReporting = () => {
   return (
     <div>
     <Nav/>
-        <Banner header={"financial-report"}/>
+        <Banner header={"industrial-investments"}/>
                 
         <section className='py-20 px-5'>
             <div className='max-w-7xl m-auto'>
                 <div>
                     
-                    <TitleBox title={"Financial Reporting Services"}/>
+                    <TitleBox title={"Industrial Investments"}/>
                 </div>
 
                 <div className='mt-6'>
-                    <p> Accurate and insightful financial reporting is essential for understanding the health of your business and making informed decisions that drive growth. At AB Accounting Services, we offer comprehensive financial reporting services to help you track your company’s performance, meet regulatory requirements, and plan for the future with confidence.</p>
+                    {/* <p> Accurate and insightful financial reporting is essential for understanding the health of your business and making informed decisions that drive growth. At AB Accounting Services, we offer comprehensive financial reporting services to help you track your company’s performance, meet regulatory requirements, and plan for the future with confidence.</p> */}
                     {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
@@ -27,8 +27,11 @@ const FinancialReporting = () => {
 
                         </div>
                         <div className='py-10'>
-                            <h3 className='text-3xl font-medium'>Why Financial Reporting Matters?</h3>
-                        <p>Financial reporting is more than just producing financial statements—it’s about gaining valuable insights into your business’s operations, profitability, and cash flow. By having clear and reliable reports, you can:
+                            <h3 className='text-3xl font-medium'>Investments</h3>
+                        <p>Tap into Nigeria's growing industrial sector by investing in manufacturing, 
+                            processing plants, and industrial hubs that drive economic growth. Transform 
+                            raw materials into finished goods, creating jobs and boosting the local 
+                            economy. 
                         </p>
                         <ul  className='px-5'>
                             <li>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { TfiMenuAlt } from 'react-icons/tfi'
 import { NavLink } from 'react-router-dom'
 import "./nav.scss";
+import logo from "../../assets/images/logo/logo2.png"
 const Nav = () => {
     const active = "text-alt"
     const [showMenu, setShowMenu] = useState(false)
@@ -24,8 +25,10 @@ const Nav = () => {
       window.addEventListener("scroll", scrollNav)
     }, [])
   return (
-    <nav className={`${navBg} flex items-center top-0 py-6 left-0 fixed w-full z-10 justify-between px-10 bg-red-20 text-white`}>
-        <NavLink to="/" className='text-3xl text-black md:text-white font-medium'>ABAccount  </NavLink>
+    <nav className={`${navBg} flex items-center top-0 py-1 left-0 fixed w-full z-10 justify-between px-10 bg-red-20 text-white`}>
+        <NavLink to="/" className='text-3xl text-black w-20 md:text-white font-medium'>
+        <img src={logo} alt="" className='w-full h-full'/> 
+        </NavLink>
         <ul className={`${showMenu && "show"} font-medium text-blac md:text-white  basis-1/2`}>
             <li className='px-4 py-2 cursor-pointer'><NavLink to="/" className={({isActive}) => (isActive && "text-alt")}> Home </NavLink></li>
             <li  className='px-4 py-2 cursor-pointer'><NavLink to="/about-us" className={({isActive}) => (isActive && "text-alt")}> About Us </NavLink></li>
@@ -42,7 +45,7 @@ const Nav = () => {
 
               </ul>
             </li>
-            <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/blog'} className={({isActive}) => (isActive && "text-alt")}> BLOG </NavLink></li>
+            {/* <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/blog'} className={({isActive}) => (isActive && "text-alt")}> BLOG </NavLink></li> */}
             <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/contact-us'} className={({isActive}) => (isActive && "text-alt")}> Contact Us </NavLink></li>
         </ul>
 

@@ -11,29 +11,33 @@ const TaxPlanning = () => {
     <div>
       
       <Nav/>
-        <Banner header={"tax-planning"}/>
+        <Banner header={"investment-opportunities"}/>
                 
         <section className='py-20 px-5'>
             <div className='max-w-7xl m-auto'>
                 <div>
                     
-                    <TitleBox title={"Tax Planning & Compliance Services"}/>
+                    <TitleBox title={"Investment Opportunities in Agriculture"}/>
                 </div>
 
                 <div className='mt-6'>
-                    <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At AB Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
-                    </p>
-                    <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4>
+                    {/* <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At AB Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
+                    </p> */}
+                    {/* <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4> */}
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10 '>
                             <img src={taxPLanningImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
 
                         </div>
                         <div className='py-10'>
-                            <h3 className='text-3xl font-medium'>Why Is Tax Planning Important?                 </h3>
-                        <p>Tax planning is about more than just filing returns—it's a strategic process that helps businesses:                        </p>
+                            <h3 className='text-3xl font-medium'>Opportunities In Agriculture             </h3>
+                        <p>
+                        Take advantage of Nigeria’s rich agricultural landscape by investing in crop 
+                        production, aquaculture, livestock farming, and agro-processing. Partner with 
+                        local farmers and cooperatives to revolutionize the nation's food security 
+                        efforts.                                             </p>
 
-                        <ul className='px-5 list-disc'>
+                        {/* <ul className='px-5 list-disc'>
                             <li>
                             Reduce tax liabilities by utilizing deductions, allowances, and reliefs.
 
@@ -50,11 +54,11 @@ const TaxPlanning = () => {
                             Plan for growth by aligning tax strategies with your business goals.
 
                             </li>
-                        </ul>
-                        <p>
+                        </ul> */}
+                        {/* <p>
                             By planning your taxes effectively, you can retain more of your hard-earned profits and reinvest them into the growth of your business.
 
-                            </p>
+                            </p> */}
                     
                         </div>
 

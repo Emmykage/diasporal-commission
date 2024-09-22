@@ -9,13 +9,13 @@ const BookkeepingPayroll = () => {
   return (
     <div>
         <Nav/>
-        <Banner header={"bookkeeping"}/>
+        <Banner header={"real-estate"}/>
                 
         <section className='py-20 px-5'>
             <div className='max-w-7xl m-auto'>
                 <div>
                     
-                    <TitleBox title={"Bookkeeping & Payroll Services"}/>
+                    <TitleBox title={"Real Estate Ventures"}/>
                 </div>
 
                 <div className='mt-6'>
@@ -27,17 +27,15 @@ const BookkeepingPayroll = () => {
 
                         </div>
                         <div className='py-10'>
-                        <p> Keeping your financial records organized and up to date is essential for managing cash flow, preparing for tax season, and making informed business decisions. Our professional bookkeeping services ensure that your accounts are always accurate and compliant with UK regulations. </p>
-
-                        <h4 className='font-semibold'>Our Bookkeeping Services Include:</h4>
-                    <ul className='list-disc list-inside px-4'>
-                        <li className=''> Recording daily financial transactions</li>
-                        <li className=''> <>Organizing receipts and invoices</></li>
-                        <li className=''> <>Bank reconciliations to ensure accurate cash flow tracking</></li>
-                        <li className=''> <>Preparing financial statements (profit & loss, balance sheets)</></li>
-                        <li className=''> <>VAT calculations and submissions</></li>
-                        <li className=''> <>Monitoring accounts receivable and payable</></li>
-                    </ul>
+                        <p>
+                        Invest in Nigeria’s burgeoning real estate market, ranging from residential 
+                        properties to commercial developments. Secure land, build, and grow with 
+                        confidence as you contribute to the country’s urban development. Property 
+                        Development,  Property Sales and Marketing, Property Leasing and Renting, 
+                        Property Management, Real Estate Investment and Advisory, Valuation and 
+                        Appraisal, Mortgage and Financing Services, Real Estate Legal Services, 
+                        Property Insurance, Real Estate Development Consulting
+                        </p>
                     
                         </div>
                     </div>

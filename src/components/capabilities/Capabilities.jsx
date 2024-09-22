@@ -20,7 +20,7 @@ const Capabilities = () => {
         </div>
         <div className='p-8 shadow text-center'>
             <img src={presentation} alt="" className='m-auto w-20'/>
-            <p className='my-8 font-medium text-xl uppercase'>Marketing</p>
+            <p className='my-8 font-medium text-xl uppercase'>Project Tracking</p>
         </div>
         <div></div>
         <div></div>

@@ -9,10 +9,10 @@ import Services from './pages/services/Services'
 import Contact from './pages/contact'
 import Blog from './pages/blog'
 import BookApointment from './pages/book-appointment'
-import BookkeepingPayroll from './pages/services/bookkeeping'
-import BusinessConsultancy from './pages/services/businessConsultancy'
-import FinancialReporting from './pages/services/financialReporting'
-import TaxPlanning from './pages/services/taxplanning'
+import BookkeepingPayroll from './pages/services/real-estate'
+import BusinessConsultancy from './pages/services/resources'
+import FinancialReporting from './pages/services/industrial-investment'
+import TaxPlanning from './pages/services/opportunities'
 import BlogPost from './pages/blog/blogPost/BlogPost'
 
 function App() {
@@ -30,10 +30,10 @@ function App() {
           <Route path="/blog-post/:id" element={<BlogPost/>}/>
           
           <Route path='/book-appointment' element={<BookApointment/>}/>
-          <Route path='/bookkeeping-payroll' element={<BookkeepingPayroll/>}/>
-          <Route path='/business-consultancy' element={<BusinessConsultancy/>}/>
-          <Route path='/financial-reporting' element={<FinancialReporting/>}/>
-          <Route path='/tax-planning' element={<TaxPlanning/>}/>
+          <Route path='/real-estate' element={<BookkeepingPayroll/>}/>
+          <Route path='/mining-natural-resources' element={<BusinessConsultancy/>}/>
+          <Route path='/industrial-investments' element={<FinancialReporting/>}/>
+          <Route path='/investment-opportunities' element={<TaxPlanning/>}/>
         </Routes>
 
         <Footer/>

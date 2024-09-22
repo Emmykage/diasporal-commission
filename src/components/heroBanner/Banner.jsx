@@ -14,14 +14,14 @@ const Banner = ({header}) => {
                 return "About Us"    
             case "appointment": 
                 return "Book APpointment" 
-            case "bookkeeping":
-                return "Bookeeping & Payroll"
-            case "business-consultancy":
-                return "Business Consultancy"
-            case "financial-report":
-                return "Financial Reporting"
-            case "tax-planning":
-            return "Tax Planning"
+            case "industrial-investments":
+                return "Industrial Investments"
+            case "mining-natural-resources":
+                return "Mining & Natural Resources"
+            case "investment-opportunities":
+                return "Investment Opportunities in Agriculture "
+            case "real-estate":
+            return " Real Estate Ventures"
             case "blog":
                 return "ABF Accounting Blog"
             default:
