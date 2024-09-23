@@ -32,6 +32,20 @@ const Home = () => {
 
 
         </section>
+
+        
+  <section className='px-5'>
+    <div className='max-w-5xl m-auto text-center '>
+        <p className='text-gray-600 font-medium leading-7'>
+        NDPT is a ‘keep-safe’ mechanism designed to help Nigerians in Diaspora pursue their dream projects, investments, and other financial transactions back home in Nigeria, without tears having completely eliminated fraud and doubt that often bedevil the projects of Nigerians in Diaspora. Now Diasporans can have their projects run smoothly and transparently without the pressure to be physically present in Nigeria in order for the work to move along. NDPT facilitates transnational transactions, engagements and networking as bridge builders, based on our deep understanding of the operating environment. NDPT guarantees that value is procured to the last sum in every transaction.
+        Want a solution like this?
+        </p>
+
+
+
+  </div>
+
+  </section>
         <section className='who-we-are py-24 px-4'>
             <div className='grid gap-10 rounded shadow items-center bg-white md:grid-cols-2 max-w-7xl m-auto'>
                 <div className='wwa-image p-4'>
@@ -113,6 +127,7 @@ contribute to national growth.
       
     </div>
   </section>
+
         <section>
             <div className='grid gap-6 md:grid-cols-2 p-5 max-w-7xl m-auto '>
             <div>

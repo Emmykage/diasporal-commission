@@ -3,7 +3,7 @@ import TitleBox from '../../../components/titleBox/TitleBox'
 import CTA from '../../../components/CTA/CAT'
 import Nav from '../../../components/nav/Nav'
 import Banner from '../../../components/heroBanner/Banner'
-import businessConsultingImage from '../../../assets/images/services/business-consulting.jpg'
+import businessConsultingImage from '../../../assets/images/services/afrimat.jpg'
 import planning from "../../../assets/images/services/chart-arrow-up-icon.png"
 import researchIcon from "../../../assets/images/services/market-research-icon.svg"
 import cashFlow from "../../../assets/images/services/money-transactions-icon.svg"
@@ -26,7 +26,16 @@ const BusinessConsultancy = () => {
                 <div className='mt-6'>
                     <p>
                     At NDPT, we understand that harnessing Nigeria's vast natural resources requires more than just extraction. Our expertise in mining and natural resources is designed to help you invest wisely, ensure sustainable practices, and maximize returns. Whether you're entering the mining sector or expanding your operations, our team provides strategic insights and tailored solutions to navigate the complexities of resource extraction and environmental responsibility, driving both profitability and positive impact.</p>
-                    {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
+                    <h4 className='text-2xl text-center font-semibold mt-2'>Explore</h4>
+
+                    <p>
+                            Explore investment opportunities in Nigeria's vast mineral wealth, including 
+                            gold, coal, limestone, and other natural resources. Contribute to resource 
+                            extraction and refining projects that ensure sustainable mining practices while 
+                            generating profits.   
+                        </p>
+
+                    
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
                             <img src={businessConsultingImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
@@ -35,17 +44,21 @@ const BusinessConsultancy = () => {
                         <div className='py-10'>
                             <h3 className='text-3xl font-medium'>Natural Resources</h3>
                         <p>
-                            Explore investment opportunities in Nigeria's vast mineral wealth, including 
-                            gold, coal, limestone, and other natural resources. Contribute to resource 
-                            extraction and refining projects that ensure sustainable mining practices while 
-                            generating profits.   
+                            Nigeria's abundant natural resources present a significant opportunity for sustainable investment and development. At NDPT, we connect the Nigerian diaspora with key mining and natural resource initiatives, fostering responsible extraction and refining projects that drive economic growth while preserving the environment.
+                            <br/><br/>
+
+                            Our focus is on unlocking the potential of Nigeria’s rich mineral deposits, including gold, coal, limestone, and more, through partnerships that prioritize sustainability and ethical practices. By investing in these sectors, you not only contribute to the country’s economic advancement but also create jobs and empower local communities.
+                            <br/>
+                            <br/>
+
+                            Whether you're looking to invest in mineral exploration, refining, or infrastructure development, NDPT offers the guidance and support needed to make impactful, responsible investments in Nigeria’s growing mining and natural resource sectors.
                         </p>
 
                        
                     
                         </div>
                     </div>
-
+{/* 
                     <div>
                     <h4 className='font-semibold text-3xl text-center'>Our Business Consultancy Services  </h4>
                     <p className='text-center max-w-xl m-auto'>At AB Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p>
@@ -117,21 +130,20 @@ const BusinessConsultancy = () => {
 
                         </div>
                     </div>
-                </div>
+                </div> */}
                     
             </div>
   
             </div>           
 
         </section>
-        <section className='uniquness py-20 px-5'>
+        {/* <section className='uniquness py-20 px-5'>
 
             <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
                 <div className='max-w-7xl text-white leading-7'>
                     <h3 className='text-3xl my-2 text-alt'> <span className='font-semibold'>Why Choose AB Accounting Services for Business Consultancy? </span></h3>
-                    {/* <p>Outsourcing your bookkeeping and payroll services can offer several advantages:
-                    </p> */}
+              
                     <ul className='list-inside list-dis px-5'>
                     <li className='flex items-cente gap-4 '> <span className='text-3xl'>&#8226;</span> 
                     <p><span className='font-semibold text-nowrap'>Tailored Solutions:</span>  Every business is different, and we believe in providing customized consultancy services that address your specific challenges and goals. We don’t offer one-size-fits-all advice but instead work with you to develop strategies that fit your business.</p> </li>
@@ -181,7 +193,7 @@ const BusinessConsultancy = () => {
             </div>
 
 
-            </section>
+            </section> */}
             <section className='px-5 py-20'> 
                 <div className='max-w-7xl m-auto'>
 

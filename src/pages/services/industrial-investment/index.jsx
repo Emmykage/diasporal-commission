@@ -4,7 +4,7 @@ import TitleBox from '../../../components/titleBox/TitleBox'
 import Banner from '../../../components/heroBanner/Banner'
 import Nav from '../../../components/nav/Nav'
 import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
-
+import investmentImg from "../../../assets/images/services/industrial-investment.jpeg"
 const FinancialReporting = () => {
   return (
     <div>
@@ -19,57 +19,44 @@ const FinancialReporting = () => {
                 </div>
 
                 <div className='mt-6'>
-                    {/* <p> Accurate and insightful financial reporting is essential for understanding the health of your business and making informed decisions that drive growth. At AB Accounting Services, we offer comprehensive financial reporting services to help you track your company’s performance, meet regulatory requirements, and plan for the future with confidence.</p> */}
-                    {/* <h4 className='text-2xl font-semibold mt-2'>Business Consultancy</h4> */}
+                    <p>
+                    At NDPT, we recognize that investing in industrial sectors is vital for economic growth and job creation. That’s why we provide comprehensive industrial investment opportunities tailored to meet the unique needs of diaspora investors looking to contribute to Nigeria's development. From manufacturing plants to processing facilities, we help you navigate the landscape and make impactful investments that drive both profitability and local economic advancement.</p>
+                    <h4 className='text-2xl font-semibold mt-2'>Explore</h4>
+                    <p>
+                    Tap into Nigeria's growing industrial sector by investing in manufacturing, 
+                    processing plants, and industrial hubs that drive economic growth. Transform 
+                    raw materials into finished goods, creating jobs and boosting the local 
+                    economy.
+                    </p>
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
-                            <img src={"bookkeeping"} alt="" className='h-full w-full' />
+                            <img src={investmentImg} alt="" className='h-full w-full' />
 
                         </div>
                         <div className='py-10'>
                             <h3 className='text-3xl font-medium'>Investments</h3>
-                        <p>Tap into Nigeria's growing industrial sector by investing in manufacturing, 
-                            processing plants, and industrial hubs that drive economic growth. Transform 
-                            raw materials into finished goods, creating jobs and boosting the local 
-                            economy. 
+                        <p>Nigeria's industrial sector is poised for significant growth, driven by increasing demand for manufactured goods, infrastructure development, and a push towards self-sufficiency. At NDPT, we facilitate impactful industrial investment opportunities that allow the Nigerian diaspora to play a vital role in this transformation.
+                        <br />
+                        <br />
+                        Our focus spans a variety of industries, including manufacturing, processing, logistics, and renewable energy. By investing in these sectors, you can help create jobs, boost local economies, and enhance the country’s overall industrial capacity.
+                        <br />
+                        <br />
+
+                        We provide comprehensive support throughout the investment process, including market analysis, project feasibility studies, and partnerships with local businesses. Whether you're interested in establishing a manufacturing facility, investing in processing plants, or supporting industrial hubs, NDPT is here to guide you in making informed decisions that align with your investment objectives and contribute to Nigeria's sustainable development.
                         </p>
-                        <ul  className='px-5'>
-                            <li>
-                            ⦁	Understand your financial position at any given time.
-
-
-                            </li>
-                            <li>
-                            ⦁	Make data-driven decisions to optimize operations and improve profitability.
-
-                            </li>
-                            <li>
-                            ⦁	Ensure compliance with UK accounting standards and regulations.
-
-
-                            </li>
-                            <li>
-                            ⦁	Attract investors by presenting transparent and accurate financial data.
-
-
-                            </li>
-                            <li>
-                            ⦁	Monitor growth and set realistic financial goals for the future.
-
-                            </li>
-                            </ul>
+                       
                        
                     
                         </div>
                         </div>
                         
-                        <h3 className='text-3xl font-semibold text-center'>Our Financial Reportinlg Services        </h3>
-                        <div>
+                        {/* <h3 className='text-3xl font-semibold text-center'>Our Financial Reportinlg Services        </h3> */}
+                        {/* <div>
                         <p  className='text-center max-w-xl m-auto my-6'>At AB Accounting Services, we tailor our financial reporting services to meet the specific needs of your business. Whether you need detailed reports for internal decision-making or to meet external compliance requirements, we’ve got you covered.
                         </p>
                         </div>
-                
-                        <div>   
+                 */}
+                        {/* <div>   
                         
                         <ul  className='grid  md:grid-cols-5 gap-5'>
                             <li>
@@ -115,14 +102,14 @@ const FinancialReporting = () => {
 
                             </li>
                         </ul>
-                    </div>
+                    </div> */}
 
                     <div>
                     {/* <h4 className='font-semibold text-center'>Our Financial Reporting Services
                     </h4> */}
                     {/* <p                className='text-center max-w-xl m-auto my-6'>At AB Accounting Services, we offer a range of consultancy services designed to address the unique needs of your business, from improving profitability to planning long-term growth. Here’s how we can support you:</p> */}
                    <h3 className='text-2xl font-semibold text-center my-16'>Benefits of Our Financial Reporting Services                   </h3>
-                    <div className='grid gap-4 md:grid-cols-4'>
+                    {/* <div className='grid gap-4 md:grid-cols-4'>
                         <div className=''>
                         <img src={benefitIcon} alt="" className='w-10 m-auto'/>
 
@@ -162,14 +149,14 @@ const FinancialReporting = () => {
                             </p>
                         </div>
                        
-                        </div>
+                        </div> */}
                         </div>
                 </div>
   
             </div>
 
         </section>
-        <section className='uniquness py-20 px-5'>
+        {/* <section className='uniquness py-20 px-5'>
 
             <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
@@ -206,20 +193,20 @@ const FinancialReporting = () => {
             </div>
 
 
-            </section>
+            </section> */}
             <section className='px-5 py-20'> 
                 <div className='max-w-7xl m-auto'>
 
-                    <h3 className='text-2xl text-center my-6 font-semibold'> Ready to Gain Deeper Insights into Your Business?</h3>
+                    <h3 className='text-2xl text-center my-6 font-semibold'>                     Ready to Drive Industrial Growth?                    </h3>
                     <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-                        At AB Accounting Services, we provide reliable and insightful financial reports that help you manage your business more effectively. Contact us today to schedule a free consultation and discover how our financial reporting services can support your growth.
 
+At NDPT, we provide reliable guidance and strategic support to help you invest in Nigeria’s growing industrial sector. Contact us today to schedule a free consultation and discover how our industrial investment opportunities can drive both profitability and sustainable development.
                     </p>
                 </div>
 
             </section>
 
-            <CTA text={"to learn more about how we can help you with financial reporting and gain a clearer understanding of your company’s performance."}   buttonText={"Get in Touch Now"}/>
+            <CTA text={"To learn more about how we can help you invest in Nigeria’s industrial sector and gain a clearer understanding of potential opportunities for growth and development."}   buttonText={"Get in Touch Now"}/>
         
     </div>
   )

@@ -5,7 +5,7 @@ import Nav from '../../../components/nav/Nav'
 import CTA from '../../../components/CTA/CAT'
 import taxComplianceImg from '../../../assets/images/services/tax-compliance.webp'
 import benefitIcon from '../../../assets/images/svgs/benefits-icon.svg'
-import taxPLanningImage from '../../../assets/images/services/what-is-tax-planning_banner.jpg'
+import farmingPic from '../../../assets/images/services/agriculture.jpg'
 const TaxPlanning = () => {
   return (
     <div>
@@ -21,44 +21,31 @@ const TaxPlanning = () => {
                 </div>
 
                 <div className='mt-6'>
-                    {/* <p> Effective tax planning is essential for businesses looking to reduce their tax liabilities while staying compliant with UK tax regulations. At AB Accounting Services, we offer tailored tax planning services designed to help businesses of all sizes make the most of tax-saving opportunities and ensure full compliance with HMRC requirements.
-                    </p> */}
-                    {/* <h4 className='text-2xl font-semibold mt-2'>Why Is Tax Planning Important?                    </h4> */}
+                    <p className='text-center'> 
+                    At NDPT, we understand that unlocking Nigeria's agricultural potential requires more than just farming. Our expertise in agriculture investment is designed to help you make strategic decisions, promote sustainable practices, and maximize returns. Whether you’re entering the agricultural sector or expanding your operations, our team provides tailored solutions and insights to help you navigate the complexities of modern farming, agro-processing, and food security initiatives. By investing in agriculture, you can drive both profitability and positive social impact, contributing to Nigeria's sustainable growth and rural development.
+                    </p>
+                    <h4 className='text-2xl font-semibold mt-2 text-center'>Explore          </h4>
+                    <p className='text-center'>
+                    Take advantage of Nigeria’s rich agricultural landscape by investing in crop production, aquaculture, livestock farming, and agro-processing. Partner with local farmers and cooperatives to revolutionize the nation's food security efforts.
+                    </p>
                     <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10 '>
-                            <img src={taxPLanningImage} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
+                            <img src={farmingPic} alt="" className='h-full rounded-xl overflow-hidden border w-full' />
 
                         </div>
                         <div className='py-10'>
                             <h3 className='text-3xl font-medium'>Opportunities In Agriculture             </h3>
                         <p>
-                        Take advantage of Nigeria’s rich agricultural landscape by investing in crop 
-                        production, aquaculture, livestock farming, and agro-processing. Partner with 
-                        local farmers and cooperatives to revolutionize the nation's food security 
-                        efforts.                                             </p>
+                         Nigeria's agricultural sector offers vast potential for impactful investments, driven by the country's fertile lands and a growing demand for food security. At NDPT, we help you explore lucrative opportunities in crop production, livestock farming, aquaculture, and agro-processing.
+                        <br />
+                        <br />
 
-                        {/* <ul className='px-5 list-disc'>
-                            <li>
-                            Reduce tax liabilities by utilizing deductions, allowances, and reliefs.
+                        By partnering with local farmers, cooperatives, and agribusinesses, you can play a key role in modernizing Nigeria's agricultural landscape while boosting productivity and sustainability. Investments in agriculture not only yield profitable returns but also contribute to job creation, poverty alleviation, and the enhancement of food security across the nation.
+                        <br />
+                        <br />
+                        Whether you're interested in large-scale farming, processing plants, or agricultural technology, NDPT is here to guide you in making strategic, high-impact investments that benefit both you and Nigeria’s agricultural future.                                            </p>
 
-                            </li>
-                            <li>
-                            Maximize savings through proper structuring of your income and expenses.
- 
-                            </li>
-                            <li>
-                            Ensure compliance with the latest UK tax laws to avoid penalties and fines.
-
-                            </li>
-                            <li>
-                            Plan for growth by aligning tax strategies with your business goals.
-
-                            </li>
-                        </ul> */}
-                        {/* <p>
-                            By planning your taxes effectively, you can retain more of your hard-earned profits and reinvest them into the growth of your business.
-
-                            </p> */}
+                       
                     
                         </div>
 
@@ -66,11 +53,9 @@ const TaxPlanning = () => {
                                     
                     </div>
 
-                    <div  className='mb-10 max-w-xl'>
-            
-                        </div>
+                  
 
-                    <div>
+                    {/* <div>
                     <h4 className='font-semibold text-xl text-center'>Our Tax Planning Services             </h4>
                     <p className='text-center max-w-xl m-auto my-6'>At AB Accounting Services, we offer a range of services to support your business’s tax planning and compliance needs:
                     </p>
@@ -123,14 +108,14 @@ const TaxPlanning = () => {
                         </div>
                         
                         </div>
-                        </div>
+                        </div> */}
                     
                         
                     </div>
   
             </div>
 
-            <div className='grid gap-6 my-20 md:grid-cols-2 m-auto max-w-7xl items-center'>
+            {/* <div className='grid gap-6 my-20 md:grid-cols-2 m-auto max-w-7xl items-center'>
                 <div className='h-96 p-10 '>
                     <img src={taxComplianceImg} alt="" className=' h-full rounded-xl overflow-hidden border w-full' />
                 </div>
@@ -157,10 +142,10 @@ const TaxPlanning = () => {
                 </ul>
             </div>
 
-            </div>
+            </div> */}
 
         </section>
-        <section className='uniquness py-20 px-5'>
+        {/* <section className='uniquness py-20 px-5'>
 
             <div className=' m-auto max-w-7xl'>
 
@@ -203,16 +188,16 @@ const TaxPlanning = () => {
             </div>
 
 
-            </section>
+            </section> */}
             <section className='px-5 py-20'> 
                 <div className='max-w-7xl m-auto'>
 
                 <h3 className='text-2xl text-center my-6 font-semibold '>
-                Ready to Optimize Your Tax Strategy?
+                Ready to Grow Your Agricultural Investments?
                 </h3>
                 <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-                At AB Accounting Services, we are committed to helping your business grow while minimizing your tax liabilities. Contact us today to schedule a free consultation and discover how our tax planning services can benefit your business.
 
+                    At NDPT, we are committed to helping you maximize your impact in Nigeria’s thriving agricultural sector. Contact us today to schedule a free consultation and discover how our tailored agricultural investment opportunities can benefit both you and the future of Nigeria’s food security.
 
                </p>
                 </div>

@@ -3,7 +3,7 @@ import Nav from '../../../components/nav/Nav'
 import Banner from '../../../components/heroBanner/Banner'
 import TitleBox from '../../../components/titleBox/TitleBox'
 import bookkeeping from '../../../assets/images/services/bookkeeping_img.jpg'
-import payroll from "../../../assets/images/services/payroll-management.jpg"
+import estateImage from "../../../assets/images/services/Nigerian-Estate.jpg"
 import CTA from '../../../components/CTA/CAT'
 const BookkeepingPayroll = () => {
   return (
@@ -19,24 +19,33 @@ const BookkeepingPayroll = () => {
                 </div>
 
                 <div className='mt-6'>
-                    <p> At AB Accounting Services, we understand that efficient bookkeeping and accurate payroll management are crucial to the success of any business. That’s why we offer comprehensive bookkeeping and payroll services tailored to meet the unique needs of small and medium-sized businesses across the UK.</p>
-                    <h4 className='text-2xl font-semibold mt-2'>Bookkeeping Services</h4>
-                    <div className='grid md:grid-cols-2 gap-10 py-4'>
+                    <p> At NDPT, we understand that investing in real estate is a key driver of economic development and personal wealth. That’s why we offer comprehensive real estate investment opportunities tailored to meet the unique needs of diaspora investors looking to contribute to Nigeria’s urban growth, from residential projects to commercial developments.</p>
+                    <h4 className='text-2xl font-semibold mt-2'>Explore</h4>
+                    <p>
+
+                        Invest in Nigeria’s burgeoning real estate market, ranging from residential 
+                            properties to commercial developments. Secure land, build, and grow with 
+                            confidence as you contribute to the country’s urban development. Property 
+                            Development,  Property Sales and Marketing, Property Leasing and Renting, 
+                            Property Management, Real Estate Investment and Advisory, Valuation and 
+                            Appraisal, Mortgage and Financing Services, Real Estate Legal Services, 
+                            Property Insurance, Real Estate Development Consulting                    </p>
+                        <div className='grid md:grid-cols-2 gap-10 py-4'>
                         <div className='h-96 p-10'>
-                            <img src={bookkeeping} alt="" className='h-full w-full' />
+                            <img src={estateImage} alt="" className='h-full w-full' />
 
                         </div>
                         <div className='py-10'>
                         <p>
-                        Invest in Nigeria’s burgeoning real estate market, ranging from residential 
-                        properties to commercial developments. Secure land, build, and grow with 
-                        confidence as you contribute to the country’s urban development. Property 
-                        Development,  Property Sales and Marketing, Property Leasing and Renting, 
-                        Property Management, Real Estate Investment and Advisory, Valuation and 
-                        Appraisal, Mortgage and Financing Services, Real Estate Legal Services, 
-                        Property Insurance, Real Estate Development Consulting
-                        </p>
-                    
+                        Nigeria’s real estate market offers significant opportunities for investment, driven by rapid urbanization, a growing population, and increasing demand for residential and commercial properties. At NDPT, we connect the Nigerian diaspora with strategic real estate investment opportunities that not only yield profitable returns but also contribute to the country’s urban development.
+                        <br />
+                        <br />
+                        Our focus encompasses a wide range of sectors, including residential housing, commercial developments, and industrial projects. By partnering with local developers and communities, you can play a crucial role in addressing the housing shortage, enhancing infrastructure, and fostering sustainable urban growth.
+                        <br />
+                        <br />
+
+                        We provide comprehensive support throughout the investment process, offering market insights, feasibility studies, and project management assistance. Whether you're looking to invest in new developments, rental properties, or real estate funds, NDPT is here to guide you in making informed decisions that align with your investment goals while positively impacting Nigeria’s future.     </p>
+                                            
                         </div>
                     </div>
                    
@@ -46,46 +55,10 @@ const BookkeepingPayroll = () => {
   
             </div>
 
-            <div  className='max-w-7xl m-auto'>
-                <h4 className='text-2xl font-semibold mt-2'>Payroll Services </h4>
-
-                <div className='grid md:grid-cols-2 gap-10'>
-                <div className='h-96 p-10'>
-                    <img src={payroll} alt="" className='h-full w-full'/>
-                </div>
-                <div className='py-10'>
-                <p>Managing payroll can be time-consuming and complex. Our payroll services ensure your employees are paid accurately and on time, while also ensuring compliance with UK tax laws, national insurance contributions, and pension requirements.</p>
-                <div>
-                    <h4>Our Payroll Services Include:</h4>
-                        <ul>
-                        <li>Employee salary and wage calculations              </li>
-                        <li>Processing employee deductions (taxes, National Insurance, pensions)
-                        </li>
-                        <li>PAYE and NIC management
-                        </li>
-                        <li>Generating payslips for employees
-                        </li>
-                        <li>Managing employee benefits and bonuses
-                        </li>
-                        <li>Automatic pension enrollment compliance
-                        </li>
-                        <li>Year-end payroll summaries and P60s
-                        </li>
-
-                    </ul>
-                </div>
-                </div>
-                </div>
-                <p  className='max-w-3xl'>
-                With our professional payroll services, you no longer have to worry about the ever-changing payroll regulations. We’ll handle all the details so you can focus on growing your business.
-
-
-                </p>
-                
-            </div>
+        
 
         </section>
-        <section className='uniquness py-20 px-5'>
+        {/* <section className='uniquness py-20 px-5'>
 
             <div className='grid md:grid-cols-2 m-auto max-w-7xl'>
 
@@ -113,17 +86,16 @@ const BookkeepingPayroll = () => {
             </div>
 
 
-            </section>
+            </section> */}
             <section className='px-5 py-20'> 
                 <div className='max-w-7xl m-auto'>
 
                 <h3 className='text-2xl text-center my-6 font-semibold '>
-                Ready to Simplify Your Bookkeeping & Payroll?
 
+                Ready to Maximize Your Real Estate Investments?
                 </h3>
                 <p className='text-center max-w-4xl m-auto font-medium text-gray-600'>
-At AB Accounting Services, we take pride in offering personalized, reliable, and accurate bookkeeping and payroll solutions that fit your business needs. Whether you need help with daily financial management or comprehensive payroll support, we’re here to assist.
-
+                    At NDPT, we take pride in providing personalized, reliable, and strategic real estate investment solutions tailored to your goals. Whether you’re looking to invest in residential, commercial, or industrial properties, we’re here to assist you every step of the way.
                 </p>
                 </div>
 
