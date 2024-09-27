@@ -204,7 +204,7 @@ const TaxPlanning = () => {
 
             </section>
 
-            <CTA text={"to learn more about tax-saving opportunities and how we can help you stay compliant with HMRC requirements."}   buttonText={"Get a Free Consultation Now "}/>
+            <CTA text={"For a free consultation and learn how our investment opportunities can help you achieve your financial goals while contributing to Nigeria’s economic growth and development."}   buttonText={"Get a Free Consultation Now "}/>
         
     </div>
   )

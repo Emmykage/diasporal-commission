@@ -37,10 +37,10 @@ const Nav = () => {
               <ul className=''>
                 <div className='bg-black'>
 
-                <li> <NavLink to={"/bookkeeping-payroll"}>BookKeeping & Payroll </NavLink></li>
-                <li> <NavLink to={"/business-consultancy"}>Business Consultancy </NavLink></li>
-                <li> <NavLink to={"/financial-reporting"}>Financial Reporting </NavLink></li>
-                <li> <NavLink to={"/tax-planning"}>Tax Planning </NavLink></li>
+                <li> <NavLink to={"/mining-natural-resources"}>Mining and Natural Resources </NavLink></li>
+                <li> <NavLink to={"/investment-opportunities"}> Investment Opportunities </NavLink></li>
+                <li> <NavLink to={"/real-estate"}>Real Estate Ventures </NavLink></li>
+                <li> <NavLink to={"/industrial-investments"}>    Industrial Investments   </NavLink></li>
                 </div>
 
               </ul>

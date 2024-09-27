@@ -101,7 +101,7 @@ const BookkeepingPayroll = () => {
 
             </section>
 
-            <CTA text={"for a free consultation and learn how our bookkeeping and payroll services can benefit your business."} buttonText={"Contact Us Today "}/>
+            <CTA text={"For a free consultation and learn how our real estate investment opportunities can help you grow your portfolio and contribute to Nigeria’s urban development."} buttonText={"Contact Us Today "}/>
         </div>
   )
 }

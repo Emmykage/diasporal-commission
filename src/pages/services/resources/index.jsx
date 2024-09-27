@@ -209,7 +209,7 @@ const BusinessConsultancy = () => {
 
             </section>
 
-            <CTA text={"for a free consultation and learn how our bookkeeping and payroll services can benefit your business."} buttonText={"Contact Us Today "}/>
+            <CTA text={"To learn more about how we can help you invest in Nigeria’s mining and natural resources sector and gain a clearer understanding of potential opportunities for growth and sustainable development."} buttonText={"Contact Us Today "}/>
         
     </div>
   )
