@@ -32,6 +32,7 @@ const Nav = () => {
         <ul className={`${showMenu && "show"} font-medium text-blac md:text-white  basis-1/2`}>
             <li className='px-4 py-2 cursor-pointer'><NavLink to="/" className={({isActive}) => (isActive && "text-alt")}> Home </NavLink></li>
             <li  className='px-4 py-2 cursor-pointer'><NavLink to="/about-us" className={({isActive}) => (isActive && "text-alt")}> About Us </NavLink></li>
+            <li  className='px-4 py-2 cursor-pointer'><NavLink to="/teams" className={({isActive}) => (isActive && "text-alt")}> Teams </NavLink></li>
             <li  className='px-4 py-2 cursor-pointer'><NavLink to={'/services'} className={({isActive}) => (isActive && "text-alt")}> Service </NavLink>
             
               <ul className=''>

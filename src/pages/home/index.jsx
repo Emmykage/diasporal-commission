@@ -6,6 +6,7 @@ import Slider from '../../components/heroBanner/Slider'
 import WWAImage from '../../assets/images/about/images-1-8.jpg'
 import experts from '../../assets/images/home/account-experts.jpg'
 import Capabilities from '../../components/capabilities/Capabilities'
+import { Carousel } from 'flowbite-react'
 
 const Home = () => {
   return (
@@ -142,6 +143,17 @@ contribute to national growth.
                 We understand that making a meaningful impact from abroad can be challenging, but with Nigeria Diaspora Project Trust (NDPT), you're empowered to make a difference. Our services are designed to streamline your involvement in Nigeria’s development, foster collaboration, and maximize the impact of your contributions—whether through investment, mentorship, or community support. NDPT is here to help you bridge the gap, ensuring that your efforts lead to sustainable growth and positive change in Nigeria.                    </p>
             </div>
             </div>
+        </section>
+        <section>
+        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96 w-[500px] m-auto">
+      <Carousel>
+        <img src="https://flowbite.com/docs/images/carousel/carousel-1.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-2.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-3.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-4.svg" alt="..." />
+        <img src="https://flowbite.com/docs/images/carousel/carousel-5.svg" alt="..." />
+      </Carousel>
+    </div>
         </section>
 
     </div>

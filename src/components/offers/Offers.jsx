@@ -6,28 +6,28 @@ import client_focus from "../../assets/images/services/client_focused.jpg"
 import pricing from "../../assets/images/services/greyphin-transparent-pricing.webp"
 
 const offers = [{
-        title: "Comprehensive Business Support",
-        text: "Whether you're looking for day-to-day bookkeeping, tax planning, or long-term financial strategy, we provide a full range of services to meet your business's needs.",
+        title: "Transparent Pricing",
+        text: "NDPT ensures clear and straightforward pricing structures, offering investors full visibility into costs without hidden fees, making financial planning more predictable.",
         bg: support,
         orientation:"right"
         }, {
-        title: "Expert Knowledge of UK Accounting Standards",
-        text: "Our team of certified accountants is highly knowledgeable in UK tax law, ensuring you remain compliant while maximizing your financial potential.",
+        title: "Client-Focused Approach",
+        text: " NDPT prioritizes the individual needs of each investor, providing personalized solutions and support to align with specific financial goals and preferences.",
         bg: knowledge,
         orientation:"left"
 
     },
     {
-        title: "Client-Focused Approach",
-        text: "We build long-term relationships with our clients, understanding your business inside out to provide the most effective and personalized accounting solutions",
+        title: "Expert Knowledge of Accounting",
+        text: "NDPT leverages deep accounting expertise to manage financial records, ensuring compliance, accuracy, and transparency in all investment-related transactions",
         bg: client_focus,
         orientation:"right"
 
         
     },
     {
-        title: "Transparent Pricing",
-        text: "No hidden fees or surprise costs—our pricing structure is clear, competitive, and tailored to the services you need.",
+        title: "Comprehensive Business Suppor",
+        text: "NDPT offers extensive business support services, guiding Nigerians in the Diaspora through every step of their investment journey, from project initiation to sustainable growth and management.",
         bg: pricing,
         orientation:"left"
 

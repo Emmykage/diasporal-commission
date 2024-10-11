@@ -14,6 +14,7 @@ import BusinessConsultancy from './pages/services/resources'
 import FinancialReporting from './pages/services/industrial-investment'
 import TaxPlanning from './pages/services/opportunities'
 import BlogPost from './pages/blog/blogPost/BlogPost'
+import Teams from './pages/teams'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/about-us' element={<About/>}/>
           <Route path='/services' element={<Services/>}/>
+          <Route path='/teams' element={<Teams/>}/>
           <Route path='/contact-us' element={<Contact/>}/>
           <Route path="/Blog" element={<Blog/>}/>
           <Route path="/blog-post/:id" element={<BlogPost/>}/>
